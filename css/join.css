@@ -1,0 +1,98 @@
+body {
+  background-color: rgb(255, 255, 255);
+}
+
+input {
+  box-sizing: border-box;
+  width: 100%;
+  padding: 8px;
+  border: 1px solid #555555;
+  border-radius: 10px;
+}
+
+#join-form {
+  background-color: #ffffff;
+  box-sizing: border-box;
+  box-shadow: 5px 5px 3px 3px #cccccc;
+  border: 5px solid #ededed;
+  border-radius: 12px;
+  margin: 24px auto;
+  padding: 24px;
+  width: 480px;
+  height: 480px;
+  text-align: center;
+}
+
+
+.join-form__input {
+  width: 100%;
+  line-height: 2;
+  margin-top: 16px;
+}
+
+.join-form__input_id_check_btn {
+  position: relative;
+  top: -220px;
+  bottom: 30px;
+  left: 200px;
+  background: rgba(85,85,85,1);
+  opacity: 1;
+  border: 2px solid rgba(85,85,85,1);
+  border-top-left-radius: 10px;
+  border-top-right-radius: 10px;
+  border-bottom-left-radius: 10px;
+  border-bottom-right-radius: 10px;
+  font-size: 10px;
+  color: #ededed;
+  text-align: center;
+}
+
+
+
+.join-form__input--label {
+  position: relative;
+  text-align: left;
+  left: 5px;
+  color: #000000;
+  font-size: smaller;
+  font-weight: bolder;
+
+}
+.join-form__check_btn {
+  width: 425px;
+  height: 35px;
+  background: rgba(85,85,85,1);
+  opacity: 1;
+  position: relative;
+  top: 40px;
+  left: 0px;
+  bottom: -20px;
+  border: 2px solid rgba(85,85,85,1);
+  border-top-left-radius: 10px;
+  border-top-right-radius: 10px;
+  border-bottom-left-radius: 10px;
+  border-bottom-right-radius: 10px;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+  overflow: hidden;
+  font-weight: Medium;
+  font-size: 18px;
+  color: #ededed;
+  opacity: 1;
+  text-align: center;
+  }
+
+.join-form__login {
+  position: relative;
+  top:50px;
+  bottom: 30px;
+  left: 160px;
+  background: rgb(255, 255, 255);
+  border: 0;
+  opacity: 1;
+  font-size: 10px;
+  color: #ffffff;
+  text-align: center;
+  color:black;
+  text-decoration: underline;
+}
+ 

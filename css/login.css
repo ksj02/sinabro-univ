@@ -1,0 +1,42 @@
+body {
+  background-color: beige;
+}
+
+input {
+  box-sizing: border-box;
+  width: 100%;
+  padding: 8px;
+  border: 1px solid #555555;
+  border-radius: 10px;
+}
+
+#login-form {
+  background-color: #ffffff;
+  box-sizing: border-box;
+  border: 1px solid #ededed;
+  border-radius: 12px;
+  margin: 24px auto;
+  padding: 24px;
+  width: 480px;
+  height: 480px;
+  text-align: center;
+}
+
+.login-form__input {
+  width: 100%;
+  line-height: 2;
+  margin-top: 16px;
+}
+
+.login-form__description {
+  color: #495464;
+  font-size: smaller;
+}
+
+.login-form__input--label {
+  position: relative;
+  text-align: left;
+  left: 5px;
+  color: #495464;
+  font-size: smaller;
+}
